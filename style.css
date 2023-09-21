@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    background-color: teal;
+    color: white;
+    font-size: 2em;
+    border: 1px solid red;
+    text-align: center;
+    display: inline-block;
+}
