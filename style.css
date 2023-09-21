@@ -6,10 +6,6 @@ body{
     box-sizing: border-box;
 }
 
-.container{
-    border: 2px solid black;
-}
-
 .item{
     width: 80px;
     height: 80px;
@@ -18,5 +14,25 @@ body{
     font-size: 2em;
     border: 1px solid red;
     text-align: center;
-    display: inline-block;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container1{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container2{
+     border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
