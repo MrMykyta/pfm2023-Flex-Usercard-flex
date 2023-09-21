@@ -7,8 +7,6 @@ body{
 }
 
 .item{
-    width: 80px;
-    height: 80px;
     background-color: teal;
     color: white;
     font-size: 2em;
@@ -17,22 +15,11 @@ body{
 }
 
 .container{
+    width: 100vw;
+    height: 100vh;
     border: 2px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-.container1{
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.container2{
-     border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
