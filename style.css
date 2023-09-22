@@ -1,28 +1,38 @@
-body{
-    margin: 0;
-}
-
-*{
+.card-container{
+    min-width: 15vw;
+    max-width: 250px;
+    min-height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
     box-sizing: border-box;
 }
 
-.item{
-    width: 80px;
-    height: 80px;
-    background-color: teal;
-    color: white;
-    font-size: 2em;
-    border: 1px solid red;
-    text-align: center;
+.user-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-name{
+    font-size: 1.1em;
+    font-weight: 800;
+    margin: 1.9em 0 1.25em;
 }
 
-.container{
-    width: 100vw;
-    height: 100vh;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-content: flex-start;
-    flex-wrap: wrap-reverse;
+.position{
+    font-size: 0.9em;
+    color: gray;
+}
+
+.button{
+    margin: auto;
+    background-color: violet;
+    color: white;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8em 2.5em;
 }
